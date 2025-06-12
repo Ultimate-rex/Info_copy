@@ -115,7 +115,7 @@ def player_info():
         log_metrics(uid, region)
         scan_results = internal_scan(uid)
 
-        url = f"https://aditya-region-v6op.onrender.com/region?uid={uid}"
+        url = f"http://fnode1.astrast.host:9079/get?api_key=devthesuperior&uid={uid}"
         headers = {
             "X-Access-Level": "elevated",
             "User-Agent": "PlayerSecureClient/2.1"
